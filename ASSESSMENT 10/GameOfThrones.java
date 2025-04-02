@@ -12,4 +12,9 @@ public class GameOfThrones {
         }
         return oddCount <= 1;
     }
+
+    public static void main(String[] args) {
+        String str = "aabb";
+        System.out.println("Is palindrome permutation: " + isPalindrome(str));
+    }
 }
