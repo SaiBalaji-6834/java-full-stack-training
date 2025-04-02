@@ -9,4 +9,9 @@ public class MajorityElement {
         }
         return candidate;
     }
+
+    public static void main(String[] args) {
+        int[] arr = {3, 3, 4, 2, 4, 4, 2, 4, 4};
+        System.out.println("Majority element: " + majorityElement(arr));
+    }
 }
