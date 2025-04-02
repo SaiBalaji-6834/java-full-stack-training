@@ -14,4 +14,10 @@ public class LeaderElements {
             }
         }
     }
+
+    public static void main(String[] args) {
+        int[] arr = {16, 17, 4, 3, 5, 2};
+        System.out.println("Leader elements: ");
+        printLeaders(arr);
+    }
 }
