@@ -14,4 +14,10 @@ public class BinarySort {
             }
         }
     }
+
+    public static void main(String[] args) {
+        int[] arr = {0, 1, 0, 1, 0, 1};
+        binarySort(arr);
+        System.out.println("Sorted binary array: " + java.util.Arrays.toString(arr));
+    }
 }
