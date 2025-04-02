@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 public class BalanceGates {
     public static boolean isBalanced(String expression) {
         Stack<Character> stack = new Stack<>();
@@ -12,5 +14,10 @@ public class BalanceGates {
             }
         }
         return stack.isEmpty();
+    }
+
+    public static void main(String[] args) {
+        String expression = "(())()";
+        System.out.println("Is balanced: " + isBalanced(expression));
     }
 }
