@@ -9,4 +9,10 @@ public class ReverseArray {
             right--;
         }
     }
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5};
+        reverseArray(arr);
+        System.out.println("Reversed array: " + java.util.Arrays.toString(arr));
+    }
 }
